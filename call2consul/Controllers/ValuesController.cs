@@ -2,6 +2,8 @@
 using System.Collections.Generic;
 using System.Linq;
 using System.Threading.Tasks;
+using Consul;
+using Consul4NetCore;
 using Microsoft.AspNetCore.Mvc;
 
 namespace call2consul.Controllers
@@ -13,7 +15,9 @@ namespace call2consul.Controllers
         [HttpGet]
         public IEnumerable<string> Get()
         {
-            return new string[] { "value1", "value2" };
+            string value = string.Empty;
+           Uri url= ConsulCache.Instance.LookupService("netcore-consul");
+            return new string[] { url.ToString() };
         }
 
         // GET api/values/5

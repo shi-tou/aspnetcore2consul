@@ -1,0 +1,9 @@
+﻿{
+  "ConsulConfig": {
+    "IsRegisterService": false, //是否在Consul上注册服务
+    "ConsulIP": "127.0.0.1", //consul注册中心ip
+    "ConsulPort": 8500, //consul注册中心ip
+    "SyncServiceNames": [ "netcore-consul" ], //同步的服务信息的名称集合,如果不设置，则默认不启用同步
+    "SyncServiceInterval": 30 //同步服务间隔时间(秒)
+  }
+}

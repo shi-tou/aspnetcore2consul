@@ -1,0 +1,6 @@
+E:\test-demo\aspnetcore2consul\Consul4NetCore\bin\Debug\netcoreapp2.1\Consul4NetCore.deps.json
+E:\test-demo\aspnetcore2consul\Consul4NetCore\bin\Debug\netcoreapp2.1\Consul4NetCore.dll
+E:\test-demo\aspnetcore2consul\Consul4NetCore\obj\Debug\netcoreapp2.1\Consul4NetCore.csprojAssemblyReference.cache
+E:\test-demo\aspnetcore2consul\Consul4NetCore\obj\Debug\netcoreapp2.1\Consul4NetCore.csproj.CoreCompileInputs.cache
+E:\test-demo\aspnetcore2consul\Consul4NetCore\obj\Debug\netcoreapp2.1\Consul4NetCore.AssemblyInfoInputs.cache
+E:\test-demo\aspnetcore2consul\Consul4NetCore\obj\Debug\netcoreapp2.1\Consul4NetCore.AssemblyInfo.cs

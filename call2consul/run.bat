@@ -1,0 +1,4 @@
+dotnet run
+
+pause
+
