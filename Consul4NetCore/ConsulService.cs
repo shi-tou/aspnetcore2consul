@@ -123,6 +123,8 @@ namespace Consul4NetCore
         /// </summary>
         private void SyncServices()
         {
+            if (_consulConfig.SyncServiceNames == null || _consulConfig.SyncServiceNames.Length == 0)
+                return;
             try
             {
                 foreach (var serviceName in _consulConfig.SyncServiceNames)

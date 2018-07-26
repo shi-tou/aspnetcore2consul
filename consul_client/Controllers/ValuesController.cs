@@ -11,13 +11,14 @@ namespace consul_client.Controllers
     [Route("api/[controller]")]
     public class ValuesController : Controller
     {
+        private const string serviceName = "netcore-consul";
         // GET api/values
         [HttpGet]
         public IEnumerable<string> Get()
         {
-            string value = string.Empty;
-           Uri url= ConsulCache.Instance.LookupService("netcore-consul");
-            return new string[] { url.ToString() };
+            ConsulHttpClient client = new ConsulHttpClient();
+            string value = client.DoGet(serviceName, "api/Health");
+            return new string[] { value };
         }
 
         // GET api/values/5

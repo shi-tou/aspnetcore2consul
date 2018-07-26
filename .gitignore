@@ -4,3 +4,7 @@
 /call2consul/bin
 /netcore2consul/obj
 /netcore2consul/bin
+/consul_client/obj
+/consul_client/bin
+/consul_service/obj
+/consul_service/bin

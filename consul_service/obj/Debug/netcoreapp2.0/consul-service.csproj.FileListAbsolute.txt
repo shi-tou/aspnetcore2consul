@@ -1,4 +1,0 @@
-E:\test-demo\aspnetcore2consul\netcore2consul\obj\Debug\netcoreapp2.0\consul-service.csprojAssemblyReference.cache
-E:\test-demo\aspnetcore2consul\netcore2consul\obj\Debug\netcoreapp2.0\consul-service.csproj.CoreCompileInputs.cache
-E:\test-demo\aspnetcore2consul\netcore2consul\obj\Debug\netcoreapp2.0\consul-service.AssemblyInfoInputs.cache
-E:\test-demo\aspnetcore2consul\netcore2consul\obj\Debug\netcoreapp2.0\consul-service.AssemblyInfo.cs
