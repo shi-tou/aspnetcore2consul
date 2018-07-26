@@ -1,20 +1,4 @@
-/*********************************************************************
-*Copyright (c) 2018 深圳房讯通信息技术有限公司 All Rights Reserved.
-*CLR版本： .NET Core SDK 2.0
-*公司名称：深圳房讯通信息技术有限公司
-*命名空间：Fxt.Framework.Caching.Redis
-*文件名：  RedisExtensions
-*版本号：  V1.0.0.0
-*创建人：  Mibin
-*创建时间：2018-7-6 14:33:07
-*描述：
-*
-*--------------多次修改可添加多块注释---------------
-*修改时间：2018-7-6 14:33:07
-*修改人： Mibin
-*描述：first create
-*
-**********************************************************************/
+
 using Microsoft.AspNetCore.Builder;
 using Microsoft.Extensions.Configuration;
 using Microsoft.Extensions.DependencyInjection;
