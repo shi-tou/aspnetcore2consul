@@ -43,7 +43,7 @@ namespace Consul4NetCore
         /// <param name="services"></param>
         /// <returns></returns>
         public static IApplicationBuilder UseConsul(this IApplicationBuilder app)
-        {
+        { 
             var consulService = app.ApplicationServices.GetService<ConsulService>();
             consulService.Start();
             return app;
