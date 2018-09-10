@@ -6,6 +6,9 @@ using System.Text;
 
 namespace Consul4NetCore
 {
+    /// <summary>
+    /// 缓存管理，用于存服务实例信息
+    /// </summary>
     public class ConsulCache
     {
         private ConsulCache() { }

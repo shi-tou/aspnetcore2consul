@@ -8,3 +8,4 @@
 /consul_client/bin
 /consul_service/obj
 /consul_service/bin
+/.vs

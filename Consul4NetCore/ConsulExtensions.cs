@@ -8,6 +8,9 @@ using System.Text;
 
 namespace Consul4NetCore
 {
+    /// <summary>
+    /// Consul扩展
+    /// </summary>
     public static class ConsulExtensions
     {
         /// <summary>

@@ -4,6 +4,9 @@ using System.Text;
 
 namespace Consul4NetCore
 {
+    /// <summary>
+    /// consul配置
+    /// </summary>
     public class ConsulConfig
     {
         public static ConsulConfig Instance { get; set; }
